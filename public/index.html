@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack · Vanilla JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <strong>Workspace</strong>
+      <span id="store" class="pill">…</span>
+      <form id="add"><input id="name" placeholder="nuevo canal" required /></form>
+      <nav id="nav"></nav>
+    </aside>
+    <section>
+      <h1 id="title">#general</h1>
+      <div id="log"></div>
+      <form id="send"><input id="text" placeholder="Mensaje" required /></form>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
