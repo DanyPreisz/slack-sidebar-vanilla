@@ -1,0 +1,11 @@
+{
+  "channels": [
+    { "id": "general", "name": "general" },
+    { "id": "random", "name": "random" },
+    { "id": "js", "name": "javascript" }
+  ],
+  "messages": [
+    { "id": "m1", "channelId": "general", "user": "bot", "text": "Bienvenido.", "at": 1 },
+    { "id": "m2", "channelId": "js", "user": "dani", "text": "vanilla only", "at": 2 }
+  ]
+}
